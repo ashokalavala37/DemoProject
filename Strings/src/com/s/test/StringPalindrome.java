@@ -13,7 +13,8 @@ public class StringPalindrome {
 		    StringBuilder strBuilder = new StringBuilder(str);
 		    strBuilder.reverse();
 		    //System.out.println("hai");
-		    return strBuilder.toString().equals(strBuilder);
+		    //System.out.println("hai");
+	 	    return strBuilder.toString().equals(strBuilder);
 		   
 		}
 	}
