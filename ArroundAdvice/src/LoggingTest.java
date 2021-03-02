@@ -10,6 +10,7 @@ public class LoggingTest {
 		proxyFactory.addAdvice(new LoggingAspect());
 		Calculator proxy = (Calculator) proxyFactory.getProxy();
 		System.out.println("sum is" + proxy.add(10, 20));
+		System.out.println("sum is" + proxy.add(30, 20));
 	}
 
 }
