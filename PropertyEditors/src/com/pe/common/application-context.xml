@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="student" class="com.pe.beans.Student">
+		<property name="studentId" value="503" />
+		<property name="name" value="suresh" />
+		<property name="resumeFile" value="c:/suresh.txt" />
+		<property name="dob" value="04/12/1993" />
+		<property name="subjects" value="corejava,spring"></property>
+	</bean>
+</beans>
